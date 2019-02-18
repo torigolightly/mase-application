@@ -1,0 +1,124 @@
+body {
+  background-color: #aedadd;
+  text-align: center;
+}
+
+
+h1 {
+  font-family: homemade apple;
+  /*font-variant: small-caps;
+  letter-spacing: 8px;*/
+  opacity: 1;
+  font-weight: light;
+  margin-top: 40px;
+  font-size: 100px;
+}
+
+h2 {
+  font-family: Josefin Sans;
+  font-weight: lighter;
+}
+
+h3 {
+  font-family: Josefin Sans;
+}
+
+p {
+  font-family: Josefin Sans;
+  font-size: 40px
+  color: #2d2d2d;
+}
+
+a {
+  color: #9bbfab;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #f4e3ea;
+
+}
+
+table img {
+  border: 10px solid  black;
+}
+
+
+/*custom design */
+.container {
+  width: 900px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  background-color: white;
+  text-align: center;
+  padding: 30px 25px;
+  margin-top: 40px;
+  border-radius: 5px;
+  box-shadow: 20px 20px 96px 2px rgba(0,0,0,0.45);
+}
+
+.image-size {
+  width: 40%;
+}
+
+#intro p {
+  margin-bottom: 20px
+}
+
+ul {
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline;
+  margin-left: 10px;
+  padding: 0;
+}
+
+#icon {
+  color: #D2E1C8;
+}
+
+.sub_head {
+  font-size: 150%;
+}
+
+.img-idea {
+  width: 100%;
+  margin: 10px auto;
+  padding-right: 0;
+}
+
+.navbar-minimalist {
+    height: 70px;
+    background: white;
+    box-shadow: 0px -2px 10px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 0.8;
+    margin-top: 80px;
+}
+
+/*adding responsiveness*/
+
+@media (max-width: 1000px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
